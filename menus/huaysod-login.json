@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle huaysod-login",
+        "command": "huaysod-login:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "huaysod-login",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "huaysod-login:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
